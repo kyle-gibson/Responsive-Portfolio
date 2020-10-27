@@ -1,21 +1,105 @@
+<!DOCTYPE html>
 <html lang=en>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha512-FOS5ANNUsuvefA5Fm6hZBLsxqfF105LIysEgV8VNz29jZLVYIhI+MOLKPBmMXgkHhARFHf5pE7KbXOLE6TXW0A==" crossorigin="anonymous" />
-<head>
+
+
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
         <title>Navbar</title>
         <link rel="stlyesheet" href="navbar.css">
-    </head>
-    <header>
-        <h1>Kyle<span> Gibson</span></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>   
+ 
+        <style>
+            body{
+                background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1701/Galaxy_Universe_Star_Clusters-Space_High_Quality_Wallpaper_1366x768.jpg");
+                background-size: cover;
+            }
+            
+            .contact-form {
+                background:rgba(0,0,0, .6);
+                color:white;
+                margin-top: 100px;
+                padding: 20px;
+                box-shadow: 0px 0px 10px 3px grey;
+                width: 800px;
+        
+            }
+        
+            header{
+                width:100%;
+                height:70px;
+            }
+        
+            h1{
+                position: absolute;
+                padding: 3px;
+                float: left;
+                margin-left:.1%;
+                margin-top:-100px;
+                color: snow;
+            }
+        
+            ul{
+                width:auto;
+                float: right;
+                margin-top: -100px;
+            }
+        
+            li{
+                display: inline-block;
+                padding: 15px 30px;
+            }
+        
+            a{
+                text-align: center;
+                color: #ffffff;
+                text-decoration: none;
+            }
+        
+            img{
+                width: 80%;
+                height: 60%;
+                margin-top:-16px;
+            }
+        
+            textarea{
+                width: 100px;
+                color: white;
+            }
+        
+            .jumbotron{
+                width: 350px;
+                margin-top: -20px;
+                background: transparent;
+                font-size: 16px;
+                margin-bottom: -20px;
+            }
+        
+            .footer{
+                position:absolute;
+                bottom: 0;
+                text-align:left;
+                margin-bottom: -30px;
+                margin-left: -50px;
+                width: 100%;
+                height: 60px;
+                color: #ffffff;
+            }
+        
+         </style>
+        
+
+</head>   
+
+<body> 
+    
+    <h1>Kyle<span> Gibson</span></h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>    
 
 <div class="container contact-form">
     <h2>Portfolio</h2>
@@ -26,22 +110,22 @@
         
 
     <div class="col-md-6">
-        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg" alt="">
    
     </div>    
 
     <div class="col-md-6">  
-        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg" alt="">
     </div>
 
     <br>
 
     <div class="col-md-6">  
-        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg" alt="">
     </div>
 
     <div class="col-md-6">  
-        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg" alt="">
     </div>
 
 
@@ -49,66 +133,11 @@
 </div>
 
 <div class="footer">
-
     <div class="container">
     <p class="text-muted">Kyle Gibson, The Coding Bootcamp 2020</p>
-
     </div>
-</div> 
+</div>
 
-<style>
-    body{
-        background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1701/Galaxy_Universe_Star_Clusters-Space_High_Quality_Wallpaper_1366x768.jpg");
-        background-size: cover;
-    }
-    
-    .contact-form {
-        background:rgba(0,0,0, .6);
-        color:white;
-        margin-top: 100px;
-        padding: 20px;
-        box-shadow: 0px 0px 10px 3px grey;
-
-    }
-
-    header{
-        width:100%;
-        height:70 px;
-    }
-
-    h1{
-        position: absolute;
-        padding: 3px;
-        float: left;
-        margin-left:.1%;
-        margin-top:-100px;
-        color: snow;
-    }
-
-    ul{
-        width:auto;
-        float: right;
-        margin-top: -100px;
-
-    }
-
-    li{
-        display: inline-block;
-        padding: 15px 30px;
-    }
-
-    a{
-        text-align: center;
-        color: #ffffff;
-        text-decoration: none;
-    }
-
-    .footer{
-        position:absolute;
-        bottom: 0;
-        width: 100%;
-        height: 60px;
-        color: #ffffff;
-    }    
-
- </style>
+</div>
+</body>
+</html>
