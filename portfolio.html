@@ -1,10 +1,8 @@
-
 <html lang=en>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha512-FOS5ANNUsuvefA5Fm6hZBLsxqfF105LIysEgV8VNz29jZLVYIhI+MOLKPBmMXgkHhARFHf5pE7KbXOLE6TXW0A==" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
-
 <head>
         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
         <title>Navbar</title>
         <link rel="stlyesheet" href="navbar.css">
     </head>
@@ -12,22 +10,43 @@
         <h1>Kyle<span> Gibson</span></h1>
         <nav>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>   
 
- <div class="media">
-        <img src="https://gyazo.com/4d1e9b3f57a65a62197291e56244c314" class="align-self-start mr-3" alt="...">
-        <div class="media-body">
-          <h5 class="mt-0">About Me</h5>
-          <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-          <p>Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        </div>
-</div>
+<div class="container contact-form">
+    <h2>Portfolio</h2>
 
+    <hr>
+
+    <div class="row">
+        
+
+    <div class="col-md-6">
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+   
+    </div>    
+
+    <div class="col-md-6">  
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+    </div>
+
+    <br>
+    
+    <div class="col-md-6">  
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+    </div>
+
+    <div class="col-md-6">  
+        <img src="https://i.pinimg.com/236x/33/72/7d/33727d49449f596b3416cd4d5a314ad9--memes.jpg">
+    </div>
+
+
+
+</div>
 
 <style>
     body{
@@ -35,10 +54,13 @@
         background-size: cover;
     }
     
-    .media{
+    .contact-form {
+        background:rgba(0,0,0, .6);
         color:white;
         margin-top: 100px;
         padding: 20px;
+        box-shadow: 0px 0px 10px 3px grey;
+
     }
 
     header{
@@ -71,11 +93,6 @@
         text-align: center;
         color: #ffffff;
         text-decoration: none;
-    }
-
-    img{
-        width: 100%;
-        margin-top:-16px;
     }
 
  </style>
