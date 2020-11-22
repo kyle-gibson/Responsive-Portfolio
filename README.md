@@ -15,6 +15,7 @@ This is my personal portfolio where I will be adding projects and applications t
     - Phone Number  
     - Email
     - GitHub (hyperlink)
+    - My resume in the form of a downloadable PDF
 
 **Contact Information**
 ----------
