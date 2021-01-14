@@ -91,11 +91,12 @@ textarea{
     background-position: center;
     background-size:cover;
     background-attachment: fixed;
-  }
-  .bgimage h5 {
+}
+
+.bgimage h5 {
     color:white;
     text-shadow:2px 2px #333;
-  }
+}
 
 .h7 {
     color: #ffffff;
